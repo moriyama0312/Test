@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/moriyama0312/Test/issues"
   },
-  "homepage": "https://github.com/moriyama0312/Test#readme"
+  "homepage": "https://github.com/moriyama0312/Test#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0"
+  }
 }
