@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "for study and test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moriyama0312/Test.git"
+  },
+  "author": "Moriyama Masataka",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/moriyama0312/Test/issues"
+  },
+  "homepage": "https://github.com/moriyama0312/Test#readme"
+}
