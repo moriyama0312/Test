@@ -8,3 +8,7 @@ gulp.task("sass", function(){
 		.pipe(autoprefixer())
 		.pipe(gulp.dest("./resource/css/"));
 });
+
+gulp.task("default", function() {
+    gulp.watch("./resource/sass/*.scss", gulp.series("sass"));
+});

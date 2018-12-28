@@ -1,5 +1,6 @@
 h1 {
   color: red;
+  font-size: 34px;
   transition: .2s ease-out transform; }
   h1:hover {
     color: blue;
