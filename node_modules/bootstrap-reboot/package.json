@@ -1,0 +1,55 @@
+{
+  "_from": "bootstrap-reboot",
+  "_id": "bootstrap-reboot@0.1.1",
+  "_inBundle": false,
+  "_integrity": "sha1-n3vedqVMTbjf17a8tdjKljneD78=",
+  "_location": "/bootstrap-reboot",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "bootstrap-reboot",
+    "name": "bootstrap-reboot",
+    "escapedName": "bootstrap-reboot",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootstrap-reboot/-/bootstrap-reboot-0.1.1.tgz",
+  "_shasum": "9f7bde76a54c4db8dfd7b6bcb5d8ca9639de0fbf",
+  "_spec": "bootstrap-reboot",
+  "_where": "/Users/moriyamamasataka/Sites/Test",
+  "author": {
+    "name": "Chen Zhiguang",
+    "email": "chen_zhiguang@yahoo.com"
+  },
+  "bugs": {
+    "url": "https://github.com/chenzhiguang/bootstrap-reboot/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": "this package has been deprecated",
+  "description": "Normalization of HTML elements, manually forked from bootstrap _reboot.scss",
+  "homepage": "https://github.com/chenzhiguang/bootstrap-reboot#readme",
+  "keywords": [
+    "normalize.css",
+    "reboot",
+    "reset",
+    "bootstrap"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "bootstrap-reboot",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenzhiguang/bootstrap-reboot.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.1.1"
+}
