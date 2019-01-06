@@ -9,3 +9,21 @@ h1 {
 		transform: translate(10px, 0);
 	}
 }
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	.flex-item {
+		// width: 33.333%;
+		&:first-child {
+			background-color: red;
+		}
+		&:nth-child(2) {
+			background-color: yellow;
+		}
+		&:last-child {
+			background-color: blue;
+		}
+	}
+}
