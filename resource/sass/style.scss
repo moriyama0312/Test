@@ -1,29 +1,42 @@
 @import "./bootstrap-reboot/bootstrap-reboot.scss";
 
-h1 {
-	color: red;
-	font-size: 34px;
-	transition: .2s ease-out transform;
-	&:hover {
-		color: blue;
-		transform: translate(10px, 0);
+.btn {
+	width: 320px;
+	margin: 30px auto;
+	background: blue;
+	a {
+		display: block;
+		text-align: center;
+		&:hover {
+			cursor: pointer;
+		}
 	}
 }
-
-.flex-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	.flex-item {
-		// width: 33.333%;
-		&:first-child {
-			background-color: red;
-		}
-		&:nth-child(2) {
-			background-color: yellow;
-		}
-		&:last-child {
-			background-color: blue;
-		}
+.modal {
+	display: none;
+	width: 50vw;
+	height: 50vh;
+	z-index: 10;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: #fff;
+	border: 1px solid #000;
+	&.is-open {
+		display: block;
+	}
+}
+.modal-bg {
+	background: rgba(0, 0, 0, .5);
+	position: fixed;
+	z-index: 5;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	display: none;
+	&.is-open {
+		display: block;
 	}
 }
